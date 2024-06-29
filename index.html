@@ -4,22 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Тортик</title>
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
-      <h1>Тортик</h1>
-      <p>Приложение для рассчета стоимости кондитерский изделий</p>
-      <img src="./img/header_photo.jpg" alt="">
-      <form action="">
-        <input type="text" placeholder="Имя">
-        <input type="password" placeholder="Пароль">
-        <button type="submit">Войти</button>
-      </form>
+    <header class="header">
+      <div class="header__block-up">
+        <h1 class="header__title">Тортик</h1>
+        <img class="header__logo" src="./img/header_photo.jpg" alt="">
+        <form class="header__log-form" action="">
+          <input type="text" placeholder="Имя">
+          <input type="password" placeholder="Пароль">
+          <button type="submit">Войти</button>
+        </form>
+      </div>
+      <p class="header__about">Приложение для рассчета стоимости кондитерских изделий</p>
     </header>
-    <main>
+    <main class="main">
       <h2>Ингридиенты</h2>
       <div>
         <input type="text" placeholder="Продукт"><input type="text" placeholder="Вес"><input type="Цена">
